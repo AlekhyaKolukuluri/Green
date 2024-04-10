@@ -26,7 +26,7 @@ const sendData = (usernameVal, sRate, Count) => {
     if(sRate === Count){
         window.alert("Hello " + usernameVal , "You are Registered");
 
-        window.location.href = "homePage.html?username=" + usernameVal;
+        window.location.href = "index.html?username=" + usernameVal;
 
     }
 }
